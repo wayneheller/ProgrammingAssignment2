@@ -8,6 +8,11 @@
      [,1]  [,2]
 [1,]   -9  8.75
 [2,]    8 -7.50
+> cacheSolve(cm)
+getting cached inversed matrix
+     [,1]  [,2]
+[1,]   -9  8.75
+[2,]    8 -7.50
 > x <- matrix (c(4,2,7,6), 2, 2)
 > cm$set(x)
 the set method called
