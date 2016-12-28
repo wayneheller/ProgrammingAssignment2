@@ -3,11 +3,6 @@
 ~~~
 > source('CacheMatrix.R')
 > x <- matrix (c(3,3.2,3.5,3.6), 2, 2)
-> cacheSolve(cm)
-getting cached inversed matrix
-     [,1]  [,2]
-[1,]   -9  8.75
-[2,]    8 -7.50
 > cm <- makeCacheMatrix(x)
 > cacheSolve(cm)
      [,1]  [,2]
